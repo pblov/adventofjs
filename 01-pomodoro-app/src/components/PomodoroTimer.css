@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PomodoroTimer";
+}
+
+.pomodoro-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #17171a;
+  color: #ffffff;
+}
+.pomodoro-container > div {
+  border-radius: 50%;
+  box-shadow: -5px 14px 44px #000000, 5px -16px 50px rgba(255, 255, 255, 0.15);
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timer-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 168px;
+}
+.timer-input:first-child {
+  text-align: end;
+}
+.timer-input {
+  background-color: #17171a;
+  color: #ffffff;
+  font-size: 168px;
+  width: 130px;
+  border: none;
+  font-family: "PomodoroTimer";
+}
+.timer-input-edit {
+  border-bottom: 1px dotted #ffffff;
+}
+.timer-input:focus {
+  outline: none;
+}
+.timer-icon-button {
+  cursor: pointer;
+  background: transparent;
+  border: transparent;
+}
+.timer-icon-button-edit {
+  margin-top: 70px;
+}
+.timer-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin: 24px 0px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.timer-input::-webkit-outer-spin-button,
+.timer-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

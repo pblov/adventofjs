@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "PomodoroTimer";
+  src: local("bebasneue-book-webfont"),
+    url("./fonts/bebasneue-book-webfont.woff") format("truetype");
+}
