@@ -1,0 +1,41 @@
+.ecommerce-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-left {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-image: url("./icons/bg__left.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+
+.bg-bottom-right {
+  height: 45%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-image: url("./icons/bg__btm-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+.bg-top-right {
+  height: 30%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background-image: url("./icons/bg__top-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}

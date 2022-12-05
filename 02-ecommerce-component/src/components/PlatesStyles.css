@@ -1,0 +1,60 @@
+.plates-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: var(--paleRose);
+  padding-right: 36px;
+  border-radius: 20px 0px 0px 20px;
+  min-height: 150px;
+  position: relative;
+  margin-bottom: 35px;
+}
+.plates-img {
+  position: absolute;
+  left: -5%;
+  bottom: 13%;
+}
+
+.plates-details-container {
+  position: absolute;
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  max-width: 160px;
+  flex-direction: column;
+}
+.plates-title {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.plates-price {
+  margin: 16px 0px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+}
+.plates-button {
+  height: 32px;
+  cursor: pointer;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  padding: 4px 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+.in-cart {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border: none;
+}
+.in-cart-icon {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+}
